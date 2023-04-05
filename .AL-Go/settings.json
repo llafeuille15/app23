@@ -1,6 +1,10 @@
 {
-  "country": "us",
-  "appFolders": [],
+  "country": "fr",
+  "appFolders": ["app1"],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "appDependencyProbingPaths": [
+    {
+        "repo": "https://github.com/businesscentralapps/publicdependency"
+    }]
 }
