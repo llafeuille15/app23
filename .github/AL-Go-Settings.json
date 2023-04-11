@@ -1,10 +1,15 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "githubrunner":  "self-hosted",
-  "environments": [ "demo" ],
-  "NextMajorSchedule":  "0 2 * * 0",
-  "NextMinorSchedule":  "0 2 * * 6",
-  "CurrentSchedule":  "0 2 * * 1,2,3,4,5",
-  "UpdateGitHubGoSystemFilesSchedule":  "0 0 * * *"  
+  "githubrunner": "self-hosted",
+  "environments": [
+    "demo"
+  ],
+  "prod": [
+    "JETESTBC"
+  ],
+  "NextMajorSchedule": "0 2 * * 0",
+  "NextMinorSchedule": "0 2 * * 6",
+  "CurrentSchedule": "0 2 * * 1,2,3,4,5",
+  "UpdateGitHubGoSystemFilesSchedule": "0 0 * * *"
 }
